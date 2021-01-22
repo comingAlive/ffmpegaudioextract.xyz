@@ -2,7 +2,6 @@
 
 A progressive web application, powered by WebAssembly, for audio extraction, video to audio conversion.
 
-
 ## Specification
 
 - Next 10.0

@@ -35,7 +35,10 @@ function Dropzone({ convertToMp3, ready, converting }: any) {
         </p>
         <p>{!ready ? "Loading..." : "or click to send"}</p>
 
-        <button aria-label="select file" className="flex justify-center items-center mt-4 w-48 h-12 text-white bg-black">
+        <button
+          aria-label="select file"
+          className="flex justify-center items-center mt-4 w-48 h-12 text-white bg-black"
+        >
           {!ready || converting ? (
             <svg
               className="w-6 h-6 animate-spin"

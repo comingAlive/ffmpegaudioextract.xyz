@@ -86,7 +86,7 @@ function Index() {
                 style={{
                   background: "#F1F3F4",
                   height: "2rem",
-                  width:"100%"
+                  width: "100%",
                 }}
               >
                 <source src={a.blobUrl} type="audio/mpeg" />

@@ -5,16 +5,16 @@ const description =
 const SEO = {
   title,
   description,
-  canonical: "https://ffmpegextract.xyz",
+  canonical: "https://ffmpegaudioextract.xyz",
   openGraph: {
     type: "website",
     locale: "en_IE",
-    url: "https://ffmpegextract.xyz",
+    url: "https://ffmpegaudioextract.xyz",
     title,
     description,
     images: [
       {
-        url: "https://ffmpegextract.xyz/static/images/banner.png",
+        url: "https://ffmpegaudioextract.xyz/static/images/banner.png",
         alt: title,
         width: 1280,
         height: 720,

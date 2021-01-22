@@ -28,6 +28,10 @@ module.exports = withPlugins(
 
       return config;
     },
+    i18n: {
+      locales: ["en-US"],
+      defaultLocale: "en-US",
+    },
     // i18n: { locales: ["en", "ru", "es", "zh"], defaultLocale: "en" },
     // images: {
     //   domains: [
