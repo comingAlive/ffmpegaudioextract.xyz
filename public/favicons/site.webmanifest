@@ -1,7 +1,7 @@
 {
   "name": "FFmpeg Audio Extract - audio extractor app.",
   "short_name": "FFmpeg AE",
-  "description": "Minimalistic, WebAssembly powered, a progressive web application for fast audio extraction, video to audio conversion.",
+  "description": "A progressive web application, powered by WebAssembly, for audio extraction, video to audio conversion.",
   "background_color": "#000",
   "display": "standalone",
   "start_url": "/index.html",
