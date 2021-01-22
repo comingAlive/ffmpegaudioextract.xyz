@@ -4,6 +4,7 @@ import { createFFmpeg, fetchFile } from "@ffmpeg/ffmpeg";
 
 import path from "path";
 import React, { useEffect, useState } from "react";
+import { isMobile } from "react-device-detect";
 import { FileWithPath } from "react-dropzone";
 
 const ffmpeg = createFFmpeg({ log: false });
@@ -25,7 +26,12 @@ function Index() {
   };
 
   useEffect(() => {
-    load().catch((er) => console.log(er));
+    if (isMobile) {
+      setReady(true);
+      return;
+    } else {
+      load().catch((er) => console.log(er));
+    }
   }, []);
 
   const convertToMp3 = async (video: FileWithPath) => {

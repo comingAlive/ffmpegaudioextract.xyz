@@ -1,6 +1,6 @@
 const title = "FFmpeg Audio Extract - audio extractor app.";
 const description =
-  "A progressive web application, powered by WebAssembly, for audio extraction, video to audio conversion.";
+  "A web application for audio extraction; video to audio conversion.";
 
 const SEO = {
   title,

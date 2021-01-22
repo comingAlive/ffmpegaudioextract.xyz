@@ -1,6 +1,7 @@
 import Add from "@/components/icons/Add";
 import clsx from "clsx";
 import React, { useCallback } from "react";
+import { isMobile } from "react-device-detect";
 import { FileWithPath, useDropzone } from "react-dropzone";
 
 function Dropzone({ convertToMp3, ready, converting }: any) {
@@ -31,15 +32,25 @@ function Dropzone({ convertToMp3, ready, converting }: any) {
         <input {...getInputProps()} />
         <Add />
         <p className="pt-4 font-bold">
-          {!ready ? "Initializing FFmpeg" : "Drag and drop video file"}
+          {!ready
+            ? "Initializing FFmpeg"
+            : isMobile
+            ? "Mobile device was detected"
+            : "Drag and drop video file"}
         </p>
-        <p>{!ready ? "Loading..." : "or click to send"}</p>
+        <p>
+          {!ready
+            ? "Loading..."
+            : isMobile
+            ? "application is disabled"
+            : "or click to send"}
+        </p>
 
         <button
           aria-label="select file"
           className="flex justify-center items-center mt-4 w-48 h-12 text-white bg-black"
         >
-          {!ready || converting ? (
+          {!ready || converting || isMobile ? (
             <svg
               className="w-6 h-6 animate-spin"
               fill="currentColor"

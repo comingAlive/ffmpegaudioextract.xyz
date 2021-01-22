@@ -1,34 +1,29 @@
 {
   "name": "ffmpeaudioextract",
-  "description": "Minimalistic, WebAssembly powered, a progressive web application for fast audio extraction, video to audio conversion.",
+  "description": "A web application for audio extraction; video to audio conversion.",
   "version": "0.0.1",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "analyze": "cross-env ANALYZE=true yarn build",
     "p": "prettier --write ."
   },
   "dependencies": {
     "@ffmpeg/core": "^0.8.5",
     "@ffmpeg/ffmpeg": "^0.9.7",
-    "@headlessui/react": "^0.2.0",
     "clsx": "^1.1.1",
-    "dayjs": "^1.10.3",
     "next": "^10.0.5",
     "preact": "^10.5.11",
     "react": "^17.0.1",
+    "react-device-detect": "^1.15.0",
     "react-dom": "^17.0.1",
     "react-dropzone": "^11.2.4"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^10.0.5",
     "@types/node": "^14.14.22",
     "@types/react": "^17.0.0",
     "autoprefixer": "^10.2.3",
-    "cross-env": "^7.0.3",
     "next-compose-plugins": "^2.2.1",
-    "next-pwa": "^5.0.4",
     "next-seo": "^4.17.0",
     "next-themes": "^0.0.10",
     "postcss": "^8.2.4",
