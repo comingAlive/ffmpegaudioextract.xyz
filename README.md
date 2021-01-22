@@ -1,6 +1,6 @@
 # FFmpeg Audio Extract - audio extractor app.
 
-Minimalistic, WebAssembly powered, a progressive web application for fast audio extraction, video to audio conversion.
+A progressive web application, powered by WebAssembly, for audio extraction, video to audio conversion.
 
 
 ## Specification
