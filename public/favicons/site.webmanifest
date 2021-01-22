@@ -4,7 +4,7 @@
   "description": "A progressive web application, powered by WebAssembly, for audio extraction, video to audio conversion.",
   "background_color": "#000",
   "display": "standalone",
-  "start_url": "/index.html",
+  "start_url": "/",
   "icons": [
     {
       "src": "/favicons/android-chrome-192x192.png",
