@@ -9,5 +9,3 @@ A web application for audio extraction; video to audio conversion.
 - React Dropzone 11.2.0
 - Tailwind CSS 2.0
 - TypeScript 4.0
-
-### Deployed to `https://vercel.com`
