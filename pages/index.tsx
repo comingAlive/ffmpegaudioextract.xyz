@@ -25,7 +25,6 @@ function Index() {
   };
 
   useEffect(() => {
-    if (ready) return;
     load().catch((er) => console.log(er));
   }, []);
 
