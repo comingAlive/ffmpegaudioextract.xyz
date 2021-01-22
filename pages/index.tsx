@@ -33,7 +33,7 @@ function Index() {
     const ext = path.extname(video.name);
     // Write the file to memory
     ffmpeg.FS("writeFile", `input${ext}`, await fetchFile(video));
-    // Run the FFMpeg command
+    // Run the FFmpeg command
     setConverting(true);
     await ffmpeg.run("-i", `input${ext}`, "-vn", "-acodec", "copy", "out.aac");
     // await ffmpeg.run("-i", `input${ext}`, "-q:a", "0", "-map", "a", "out.mp3");

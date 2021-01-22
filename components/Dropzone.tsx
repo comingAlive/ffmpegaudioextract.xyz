@@ -31,7 +31,7 @@ function Dropzone({ convertToMp3, ready, converting }: any) {
         <input {...getInputProps()} />
         <Add />
         <p className="pt-4 font-bold">
-          {!ready ? "Initializing FFMpeg" : "Drag and drop video file"}
+          {!ready ? "Initializing FFmpeg" : "Drag and drop video file"}
         </p>
         <p>{!ready ? "Loading..." : "or click to send"}</p>
 
