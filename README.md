@@ -1,3 +1,7 @@
+  <a href="https://svelte.dev">
+	<img alt="Cybernetically enhanced web apps: Svelte" src="https://ffmpegaudioextract.xyz/images/banner.png">
+  </a>
+
 # FFmpeg Audio Extract - audio extractor app.
 
 A web application for audio extraction; video to audio conversion.
