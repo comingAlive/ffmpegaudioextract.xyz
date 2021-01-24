@@ -1,5 +1,5 @@
   <a href="https://svelte.dev">
-	<img alt="Cybernetically enhanced web apps: Svelte" src="https://gitexplore.xyz/images/banner.png">
+	<img alt="Cybernetically enhanced web apps: Svelte" src="https://ffmpegaudioextract.xyz/images/banner.png">
   </a>
 
 # FFmpeg Audio Extract - audio extractor app.
