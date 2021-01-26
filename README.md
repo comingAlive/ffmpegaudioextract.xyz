@@ -2,9 +2,9 @@
 	<img alt="Cybernetically enhanced web apps: Svelte" src="https://ffmpegaudioextract.xyz/images/repo.png">
   </a>
 
-# FFmpeg Audio Extract - audio extractor app.
+# FFmpeg Audio Extract - instant video to audio converter.
 
-A web application for audio extraction; video to audio conversion.
+A minimalistic web application for instant audio extraction; video to audio conversion.
 
 ## Specification
 
