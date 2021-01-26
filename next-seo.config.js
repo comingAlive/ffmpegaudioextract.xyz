@@ -1,4 +1,4 @@
-const title = "FFmpeg Audio Extract - instant video to audio converter.";
+const title = "FFmpeg Audio Extract - Instant video to audio converter.";
 const description =
   "A minimalistic web application for instant audio extraction; video to audio conversion.";
 
