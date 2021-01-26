@@ -1,5 +1,5 @@
   <a href="https://ffmpegaudioextract.xyz">
-	<img alt="Cybernetically enhanced web apps: Svelte" src="https://ffmpegaudioextract.xyz/images/repo.png">
+	<img alt="Instant video to audio converter" src="https://ffmpegaudioextract.xyz/images/repo.png">
   </a>
 
 # FFmpeg Audio Extract - instant video to audio converter.
