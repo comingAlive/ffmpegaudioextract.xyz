@@ -10,7 +10,6 @@ A minimalistic web application for instant audio extraction; video to audio conv
 
 - Next 10.0
 - FFmpeg.wasm 0.9
-- React 17.0
 - React Dropzone 11.2.0
 - Preact 10.5
 - Tailwind CSS 2.0
