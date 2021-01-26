@@ -49,7 +49,7 @@ function Dropzone({convertToMp3, ready, converting}: any) {
           <button
               disabled={isMobile}
               aria-label="select file"
-              className="flex justify-center items-center mt-4 w-48 h-12 text-white bg-black"
+              className="flex justify-center items-center mt-4 w-48 h-12 text-white bg-black transition dark:hover:border-gray-400"
           >
             {!ready || converting ? (
                 <svg

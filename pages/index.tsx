@@ -26,6 +26,9 @@ function Index() {
     };
 
     useEffect(() => {
+        if (ready) {
+            return
+        }
         if (isMobile) {
             setReady(true);
             return;
@@ -63,7 +66,7 @@ function Index() {
             />
 
             <button
-                className="w-full my-4 py-2 bg-gray-50 transition ease-in dark:bg-gray-900"
+                className="w-full my-4 py-2 bg-gray-50 transition ease-in dark:bg-gray-900 dark:hover:border-gray-400"
                 onClick={() => {
                     if (audioFiles.length !== 0) setAudioFiles([]);
                 }}
@@ -77,9 +80,9 @@ function Index() {
             {audioFiles &&
             audioFiles?.map((a, i) => {
                 return (
-                    <div key={i} className="bg-white shadow dark:bg-black">
+                    <div key={i} className="bg-white shadow dark:bg-black ">
                         <a href={a.blobUrl} download={a.name}
-                           className="flex text-md justify-between px-4 font-medium py-2 text-left transition border-2 hover:border-blue-300 hover:scale-105 cursor-pointer">
+                           className="flex text-md justify-between px-4 font-medium py-2 text-left transition border border-gray-200 dark:border-gray-600 dark:hover:border-gray-400 hover:border-gray-400  cursor-pointer">
                             <span>
                                 {a.name.length > 20
                                     ? a.name.substring(0, 20) + "..."
