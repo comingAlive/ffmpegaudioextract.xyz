@@ -1,6 +1,6 @@
-const title = "FFmpeg Audio Extract - audio extractor app.";
+const title = "FFmpeg Audio Extract - instant audio extraction.";
 const description =
-  "A web application for audio extraction; video to audio conversion.";
+  "A minimalistic web application for instant audio extraction; video to audio conversion.";
 
 const SEO = {
   title,
