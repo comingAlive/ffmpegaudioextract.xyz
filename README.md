@@ -1,5 +1,5 @@
   <a href="https://ffmpegaudioextract.xyz">
-	<img alt="Cybernetically enhanced web apps: Svelte" src="https://ffmpegaudioextract.xyz/images/banner.png">
+	<img alt="Cybernetically enhanced web apps: Svelte" src="https://ffmpegaudioextract.xyz/images/repo.png">
   </a>
 
 # FFmpeg Audio Extract - audio extractor app.
