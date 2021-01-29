@@ -1,6 +1,6 @@
 const title = "FFmpeg Audio Extract - Instant video to audio converter.";
 const description =
-  "A minimalistic web application for instant audio extraction; video to audio conversion.";
+  "A minimalistic web application for instant audio extraction; video to audio conversion. Using FFmpeg.wasm.";
 
 const SEO = {
   title,

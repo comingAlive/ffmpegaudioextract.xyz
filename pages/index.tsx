@@ -26,9 +26,6 @@ function Index() {
     };
 
     useEffect(() => {
-        if (ready) {
-            return
-        }
         if (isMobile) {
             setReady(true);
             return;

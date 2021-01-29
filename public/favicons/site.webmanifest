@@ -1,7 +1,7 @@
 {
   "name": "FFmpeg Audio Extract - Instant video to audio converter.",
   "short_name": "FFmpeg AE",
-  "description": "A minimalistic web application for instant audio extraction; video to audio conversion.",
+  "description": "A minimalistic web application for instant audio extraction; video to audio conversion. Using FFmpeg.wasm.",
   "background_color": "#000",
   "display": "standalone",
   "start_url": "/",
