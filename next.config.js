@@ -21,6 +21,23 @@ module.exports = withPlugins([], {
     locales: ["en-US"],
     defaultLocale: "en-US",
   },
+  async headers() {
+    return [
+      {
+        source: "/",
+        headers: [
+          {
+            key: "Cross-Origin-Embedder-Policy",
+            value: "require-corp",
+          },
+          {
+            key: "Cross-Origin-Opener-Policy",
+            value: "same-origin",
+          },
+        ],
+      },
+    ];
+  },
   // i18n: { locales: ["en", "ru", "es", "zh"], defaultLocale: "en" },
   // images: {
   //   domains: [
