@@ -4,7 +4,7 @@
 
 # FFmpeg Audio Extract - Instant video to audio converter.
 
-A minimalistic web application for instant audio extraction; video to audio conversion.
+A minimalistic wasm-based web application for instant audio extraction; video to audio conversion.
 
 ## Specification
 
